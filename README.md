@@ -1,80 +1,89 @@
-📊 Data Jobs Dashboard
+**📊 Data Jobs Dashboard (Power BI)**
 
-This project presents an interactive Data Jobs Dashboard built using Microsoft Power BI.
-The dashboard visualizes insights about job counts, average annual salary, average hourly salary, and job distribution across countries.
+This project is a Power BI dashboard created using the job_postings_flat dataset.
+The dashboard visualizes job counts, salary insights, and job distribution across countries for various data-related roles.
 
-🚀 Project Overview
+📸 **Dashboard Preview**
 
-The goal of this dashboard is to help users quickly explore and understand:
 
-How many data-related jobs exist (job count)
 
-Which countries have the highest number of job postings
 
-Salary trends across different roles
+**🚀 Project Overview**
 
-Role-wise job demand (such as Data Engineer, Data Analyst, Data Scientist, etc.)
+The Data Jobs Dashboard helps users explore:
+Total job count
+Average yearly and hourly salary
+Job demand based on job titles
+(e.g., Data Engineer, Data Analyst, Data Scientist)
 
-The dashboard allows users to interact with filters and explore insights instantly.
+Job distribution across the world map
+Interactive filters to analyze different segments of data
+It gives a quick, visual understanding of trends in the data job market.
 
-📌 Key Features
-✅ 1. Job Count by Country (Map Visualization)
+**📌 Key Features**
+🔹 1. KPI Cards
 
-A world map that displays job availability across different countries.
-Darker/larger points represent higher job counts.
+At the top of the report, the dashboard displays key metrics:
 
-✅ 2. Top Job Roles (Bar Chart)
+₹ 128.99K — Job Count
+₹ 132.52K — Average Yearly Salary
+₹ 57.01 — Average Hourly Salary
 
-Shows job demand for roles like:
+These KPIs help users understand the dataset at a glance.
 
+🔹 2. Top Job Roles (Clustered Bar Chart)
+
+This visual compares job demand for major data roles such as:
 Data Engineer
-
 Data Analyst
-
 Data Scientist
 
-Other data-related roles
+It clearly shows which job roles have the highest posting count.
 
-✅ 3. KPI Cards
+🔹 3. Job Count by Country (Map Visualization)
 
-At the top of the dashboard, the following key performance indicators are displayed:
+A global map visualization is used to show job distribution across countries.
+Large and darker markers represent countries with higher job counts.
 
-Total Job Count
+🔹 4. Interactive Filters
 
-Average Yearly Salary
+Users can filter by:
 
-Average Hourly Salary
+Job title
+Country
+Salary (yearly/hourly)
 
-✅ 4. Interactive Filters
+Any other field from the dataset
+This makes the dashboard dynamic and easy to explore.
 
-Users can apply filters to explore data by:
+🗂️ Dataset Used
 
-Job titles
-
-Locations
-
-Salary ranges (if included in your dataset)
-
-This makes the dashboard dynamic and user-friendly.
-
-🗂️ Dataset
-
-The dataset includes fields such as:
-
-Job Title
-
-Country / Location
-
-Salary Information
-
+The dashboard uses the job_postings_flat dataset.
+It includes fields such as:
+job Title
+Country
 Job Count
+Yearly Salary
+Hourly Salary
+Job Location
+Other job metadata
 
-(You can replace this section by adding your dataset source or description.)
-
-🛠️ Tools Used
+**🛠️ Tools & Technologies**
 
 Microsoft Power BI
+Power Query (Data cleaning)
+DAX (Measures & KPIs)
+Map & Clustered Bar Chart visualizations
 
-Data Cleaning & Preparation (Power Query or Excel)
+📁 Project Structure
+/Data-Jobs-Dashboard
+│── Data_Jobs_Dashboard.pbix      # Power BI dashboard file
+│── job_postings_flat.csv/.zip    # Dataset used (optional)
+│── README.md                     # Project documentation
+│── dashboard_screenshot.png      # Uploaded screenshot
 
-Visualization Tools inside Power BI
+**📥 How to View the Dashboard**
+
+Download the .pbix file.
+Open it in Power BI Desktop.
+Interact with the visuals and filters to explore insights.
