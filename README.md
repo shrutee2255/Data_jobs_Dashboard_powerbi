@@ -5,6 +5,8 @@ The dashboard visualizes job counts, salary insights, and job distribution acros
 
 📸 **Dashboard Preview**
 
+![Data Jobs Dashboard](https://raw.githubusercontent.com/shrutee2255/Data_jobs_Dashboard_powerbi/main/dashboard_screenshot.png)
+
 
 
 
