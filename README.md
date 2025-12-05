@@ -172,11 +172,13 @@ The dashboard leverages a comprehensive dataset containing:
 
 ## 📊 Dashboard Preview
 
-> **Add your dashboard screenshot here**
+<div align="center">
 
-```markdown
-![Dashboard Overview](path/to/screenshot.png)
-```
+![Data Jobs Dashboard Overview](dashboard.png)
+
+*Interactive Power BI Dashboard showcasing global data job market insights*
+
+</div>
 
 ---
 
